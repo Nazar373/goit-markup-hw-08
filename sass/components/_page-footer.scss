@@ -1,0 +1,131 @@
+.footer {
+  background-color: $footer-background-color;
+  height: 603px;
+  @media screen and (min-width:768px) {
+    height:463px;
+  }
+  @media screen and (min-width:1200px) {
+    height:auto;
+  }
+}
+.footer-container {
+  position: relative;
+  
+  @media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  @media screen and (min-width:1200px) {
+    flex-wrap: nowrap;
+  }
+}
+.info {
+  padding-top: 60px;
+  margin-bottom: 60px;
+  @media screen and (min-width:768px) {
+    margin-right: 217px;
+    }
+  @media screen and (min-width:1200px) {
+    margin-right: 70px;
+  }
+}
+.info__item {
+  margin-bottom: 9px;
+  text-align: center;
+  @media screen and (min-width:1200px){
+    text-align: start;
+    width: 230px;
+  }
+}
+.info__adress {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $primary-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus , &:hover{ color:$accent-color;}
+}
+.info__mobile {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $adress-color;
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus { color:$primary-color}
+  &:hover { color:$accent-color}
+}
+.footer-social {
+  height: 80px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width:768px){
+    padding-top: 60px;
+  }
+  @media screen and (min-width:1200px) {
+    padding-top: 72px;
+    width: 206px;
+  }
+}
+.title__footer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-color;
+  margin-bottom: 20px;
+  text-align:center;
+  @media screen and (min-width:1200px) {
+    text-align: start;
+  }
+}
+.footer-form {
+  height: 86px;
+  margin-bottom: 60px;
+  @media screen and (min-width:768px){
+    width: 450px;
+  }
+  @media screen and (min-width:1200px){
+   margin-top: 72px;
+   margin-left: 92px;
+   width: 570px;
+  }
+}
+.footer__form {
+  margin-bottom: 60px;
+  @media screen and (min-width:1200px){
+    display: flex;
+  }
+}
+.footer__input {
+  background-color: transparent;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 20px;
+  padding: 15px 15px;
+  margin-bottom: 20px;
+  @media screen and (min-width:1200px){
+    margin-right: 12px;
+    width: 358px;
+  }
+}
+.icon__footer {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}

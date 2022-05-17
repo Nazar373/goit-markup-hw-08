@@ -1,0 +1,86 @@
+.hero-section {
+  padding: 118px 0;
+  background-image: 
+  linear-gradient(
+    to right, 
+    $background-gradient-color,
+    $background-gradient-color
+  ) ,
+   url('../../images/Header-img-mob.jpg');
+  // max-height: 600px;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  background-position: center ;
+  text-align: center;
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi), 
+  (min-resolution: 192dppx){
+  background-image:
+  linear-gradient(
+    to right, 
+    $background-gradient-color,
+    $background-gradient-color
+  ) ,url('../../images/Header-img-mob@2x.jpg')}
+  @media screen and (min-width: 768px){
+    background-image: 
+    linear-gradient(
+      to right, 
+      $background-gradient-color,
+      $background-gradient-color
+    ) ,
+     url('../../images/Header-img-tablet.jpg');
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi), 
+     (min-resolution: 192dppx){
+     background-image:
+     linear-gradient(
+       to right, 
+       $background-gradient-color,
+       $background-gradient-color
+     ) ,url('../../images/Header-img-tablet@2x.jpg')}
+  }
+  @media screen and (min-width:1200px){
+    padding: 200px 0;
+    background-image: 
+    linear-gradient(
+      to right, 
+      $background-gradient-color,
+      $background-gradient-color
+    ) ,
+     url('../../images/Header-img-desktop.jpg');
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi), 
+     (min-resolution: 192dppx){
+     background-image:
+     linear-gradient(
+       to right, 
+       $background-gradient-color,
+       $background-gradient-color
+     ) ,url('../../images/Header-img-desktop@2x.jpg')}
+  }
+
+ }
+ .main__title {
+  font-weight: 900;
+  
+  font-size: 26px;
+  line-height: 2.6;
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 ;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px ;
+  @media screen and (min-width:1200px){
+   font-size: 44px;
+   line-height: 1.3;
+  }
+}
+.main {
+  max-width: 365px;
+  @media screen and (min-width:1200px){
+    max-width: 696px;
+  }
+}
