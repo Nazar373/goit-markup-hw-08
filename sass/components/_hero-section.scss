@@ -6,7 +6,7 @@
     $background-gradient-color,
     $background-gradient-color
   ) ,
-   url('../../images/Header-img-mob.jpg');
+   url('../images/Header-img-mob.jpg');
   // max-height: 600px;
   background-repeat: no-repeat ;
   background-size: cover ;
@@ -20,7 +20,7 @@
     to right, 
     $background-gradient-color,
     $background-gradient-color
-  ) ,url('../../images/Header-img-mob@2x.jpg')}
+  ) ,url('../images/Header-img-mob@2x.jpg')}
   @media screen and (min-width: 768px){
     background-image: 
     linear-gradient(
@@ -28,7 +28,7 @@
       $background-gradient-color,
       $background-gradient-color
     ) ,
-     url('../../images/Header-img-tablet.jpg');
+     url('../images/Header-img-tablet.jpg');
      @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi), 
      (min-resolution: 192dppx){
@@ -37,7 +37,7 @@
        to right, 
        $background-gradient-color,
        $background-gradient-color
-     ) ,url('../../images/Header-img-tablet@2x.jpg')}
+     ) ,url('../images/Header-img-tablet@2x.jpg')}
   }
   @media screen and (min-width:1200px){
     padding: 200px 0;
@@ -47,7 +47,7 @@
       $background-gradient-color,
       $background-gradient-color
     ) ,
-     url('../../images/Header-img-desktop.jpg');
+     url('../images/Header-img-desktop.jpg');
      @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi), 
      (min-resolution: 192dppx){
@@ -56,7 +56,7 @@
        to right, 
        $background-gradient-color,
        $background-gradient-color
-     ) ,url('../../images/Header-img-desktop@2x.jpg')}
+     ) ,url('../images/Header-img-desktop@2x.jpg')}
   }
 
  }
