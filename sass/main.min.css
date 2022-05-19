@@ -1134,7 +1134,7 @@ img {
     font-size: 14px;
   }
 }
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
   .form-checkbox {
     justify-content: center;
     text-align: center;
